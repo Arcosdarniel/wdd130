@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rafting Adventure - About Us">
+    <meta name="author" content="Daniel Arcos"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Rafting Adventure - About Us</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_set">
+            <div class="logo">
+                <img src="images/templogo.png" alt="Rafting Adventure Logo">
+            </div>
+            <nav class="header_links">
+                <a class="link a1" href="./about.html">Home</a>
+                <a class="link a2" href="about.html">About</a>
+                <a class="link a3" href="trips.html">Trips</a>
+                <a class="link a4" href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container_contact">
+            <div id="form_box">
+                <form id="form">
+                    <fieldset>
+                        <h2>Formulario</h2>
+                        <label for="name">User name</label><br>
+                        <input type="text" id="name" name="name" required placeholder="Write your user name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+                    </fieldset>
+                    <fieldset>
+                        <h2>How can we help you?</h2>
+                        <label for="inquiry">General Inquiry</label>
+                        <input type="radio" id="inquiry" name="inquiry">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="reservation" name="reservation">
+                        <label for="website">Website Suggestion</label>
+                        <input type="radio" id="website" name="website">
+                    </fieldset>
+                    <fieldset>
+                            <label for="message">Write your message:</label>
+                            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea><br>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" name="subscribe">Please subscribe me to the monthly newsletter<br>
+                    </fieldset>
+                    
+                    <button type="submit">send it</button>
+                </form>
+            </div>
+            <div id="information_box">
+                <div id="map_div">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15040.599145799932!2d-72.52622092656571!3d-37.58105536041831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1729294334341!5m2!1ses-419!2scl" ></iframe>
+                </div>
+                <div 
+                    id="contact_information">
+                    <p>
+                        address ########<br>phone numbers ######## / ########<br> ####@gmail.com
+                    </p>
+                </div>
+                <div id="div_img"> 
+                    <figure class="box_img">
+                        <img class="trabajador" src="images/1.png" alt="Trabajador">
+                        <figcaption>Luis Santos<br>General Inquiries Specialist</figcaption>
+                    </figure>
+                    <figure class="box_img">
+                        <img class="trabajador" src="images/2.png" alt="Trabajador">
+                        <figcaption>Emma Davis<br>Website Suggestions Consultant</figcaption>
+                    </figure>
+                    <figure class="box_img">
+                        <img class="trabajador" src="images/3.png" alt="Trabajador">
+                        <figcaption>Alberto Dominguez<br>Reservations Coordinator</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div>
+            <section class="container_adventure">
+                <h2 class="a_h">Adventure Awaits You!</h2>
+                <div class="img-set">
+                    <figure>
+                        <img class="a_img_1" src="images/rafting1.jpg" alt="Rafting Adventure 1">
+                        <figcaption>Conquering the Rapids of Fury</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="a_img_2" src="images/rafting2.jpg" alt="Rafting Adventure 2">
+                        <figcaption>Whirlpool Warriors</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="a_img_3" src="images/rafting17_600.jpg" alt="Rafting Adventure 3">
+                        <figcaption>The Final Descent</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="a_img_4" src="images/rafting4.jpg" alt="Rafting Adventure 4">
+                        <figcaption>Riding the Thunder Waves</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="a_img_5" src="images/rafting5.jpg" alt="Rafting Adventure 5">
+                        <figcaption>Lost in the Canyon's Embrace</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="container sociallinks">
+        <p>©️2024 Rafting Adventure / Daniel Arcos</p>
+        <nav>
+            <a href="https://facebook.com">
+                <img src="images/2959749_facebook_icon.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/2959748_instagram_photo_share_icon.png" alt="Instagram">
+            </a>
+            <a href="https://x.com">
+                <img src="images/211651_close_round_icon.png" alt="X (Twitter)">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
